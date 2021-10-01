@@ -1,4 +1,4 @@
-# Display a box
+# Display a robot using ascii
 print(" __##########__ ")
 print("|              |")
 print("|  --      --  |")

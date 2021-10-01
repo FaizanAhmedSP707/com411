@@ -1,0 +1,15 @@
+# Display a ascii robot with dynamic eyes
+print("Please enter a character for the eye")
+eye = input()
+
+print("  __##########__ ")
+print(" |              |")
+print(f"|     {eye}     {eye}    |")
+print(" |_            _|")
+print("  _############_ ")
+print(" |  **~~~~~~~~  |")
+print(" | |          | |")
+print(" | |          | |")
+print(" |_|          |_|")
+print("   |          |  ")
+print("   |__________|  ")
