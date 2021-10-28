@@ -1,4 +1,4 @@
-# This program is to help Beep and Bop find their way out of the maze
+# This program is to help Beep and Bop find their way out of the cave
 
 def directions():
     # This function creates a list of directions for Beep and Bop to use
