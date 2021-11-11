@@ -31,8 +31,11 @@ def run():
     small()
     medium()
     large()
+    plt.xlabel('x values')
+    plt.ylabel('y values')
     plt.show()
 
 
 if __name__ == '__main__':
+    # Execute when file is run directly
     run()
