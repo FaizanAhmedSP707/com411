@@ -5,6 +5,8 @@ import matplotlib.pyplot as plt
 def display(x_list, y_list):
     # This function will draw a line plot using the arguments passed in as parameters
     plt.plot(x_list, y_list)
+    plt.xlabel('Integers')
+    plt.ylabel('Square number')
     plt.show()
 
 
