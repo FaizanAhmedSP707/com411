@@ -27,7 +27,7 @@ def large():
 
 
 def run():
-    # Calls the first 3 functions and then shows all of the plotted in a single window
+    # Calls the first 3 functions and then shows all of the plotted squares in a single window
     small()
     medium()
     large()
