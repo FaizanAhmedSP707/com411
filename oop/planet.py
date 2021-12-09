@@ -7,7 +7,7 @@ from robot2 import Robot
 
 
 class Planet:
-    # Initialise a dictionary containing a list of inhabitants for each key
+    # Initialise an empty list containing a list of inhabitants for each attribute
     def __init__(self):
         self.humans = []
         self.robots = []
