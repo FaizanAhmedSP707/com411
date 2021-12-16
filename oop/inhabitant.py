@@ -3,8 +3,10 @@
 # attributes (name, age and energy) and methods (eat, grow and move) of these two classes to the class Inhabitant.
 # This helps improve code reuse and reduce code duplication.
 
-class Inhabitant:
+from abc import ABC
 
+
+class Inhabitant(ABC):
     # This is a class (CONSTANT) attribute (attribute shared by all objects of the class)
     MAX_ENERGY = 100
 
