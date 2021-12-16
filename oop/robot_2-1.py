@@ -7,6 +7,14 @@ from inhabitant import Inhabitant
 class Robot(Inhabitant):
     # Inheriting the Inhabitant class
 
+    # Class attribute
+    laws = "Protect, Obey and Survive"
+
+    # A static method for robots
+    @staticmethod
+    def the_laws():
+        print(Robot.laws)
+
     def __init__(self, name="Robot", age=0):
         # Use the initialiser from the super class to initialise a new human object
         super().__init__(name, age)
@@ -24,6 +32,7 @@ class Robot(Inhabitant):
 if __name__ == '__main__':
     # Creating a human object for testing of code
     new_robot = Robot()
+    Robot.the_laws()  # Get the static method that is available be default
     print(repr(new_robot))
     new_robot.move(35)
     print(repr(new_robot))
