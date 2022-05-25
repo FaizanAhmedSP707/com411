@@ -25,7 +25,7 @@ class Robot:
 
     def __repr__(self):
         # Return a string representation of the object
-        return f'\nhuman(name={self.name}, age={self.age}, energy={self.energy}'
+        return f'\nrobot(name={self.name}, age={self.age}, energy={self.energy}'
 
     # This is an instance method
     def display(self):
