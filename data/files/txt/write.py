@@ -27,7 +27,7 @@ def save(path_to_file, data_string):
     print("Saving...")
 
     with open(path_to_file, "w") as file:
-        file.write(data_string)
+        file.write(data_string)  # Write the data returned from the first function into a new file
     print("Done!")  # After the data has been written to the file
 
 
